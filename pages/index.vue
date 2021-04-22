@@ -1,6 +1,6 @@
 <template>
   <div class="container">
- <h1>HOLIS</h1>
+ <h1 class=" text-2xl ">HOLIS</h1>
   </div>
 </template>
 
