@@ -1,6 +1,20 @@
 <template>
-  <div class="grid w-24">
 
+  <div class="grid  w-1/12 px-18 h-58 py-20">
+    <NuxtLink to="/">
+        tepifani
+    </NuxtLink>
+    <div class="grid">
+      <NuxtLink to="/a">
+        a
+    </NuxtLink>
+      <NuxtLink to="/b">
+        b
+    </NuxtLink>
+      <NuxtLink to="/c">
+        c
+    </NuxtLink>
+    </div>
   </div>
 </template>
 

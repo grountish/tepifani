@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <Nuxt />
+  <div class="flex">
+    <Nav/>
+    <Nuxt class=" w-11/12" />
   </div>
 </template>
 
