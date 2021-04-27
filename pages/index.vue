@@ -1,5 +1,5 @@
 <template>
-  <div class="grid  place-items-start grid-cols-1 mb-10">
+  <div class="grid  place-items-start grid-cols-1 pt-10 mb-10">
 
     <img :src="page.mainImage" class=" w-10/12 self-end my-5" alt="a">
       <SanityContent

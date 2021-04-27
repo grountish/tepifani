@@ -1,6 +1,6 @@
 <template>
 
-  <div class="grid  w-2/12 pl-16 h-58 py-20 nav ">
+  <div class="grid  w-2/12 pl-16 h-58 py-14 nav ">
     <NuxtLink class=" font-bold mb-6" to="/">
         Tomás Epifani
     </NuxtLink>
