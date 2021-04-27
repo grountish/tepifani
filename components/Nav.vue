@@ -1,29 +1,32 @@
 <template>
 
-  <div class="grid  w-1/12 px-18 h-58 py-20">
-    <NuxtLink to="/">
-        tepifani
+  <div class="grid  w-2/12 pl-16 h-58 py-20 nav ">
+    <NuxtLink class=" font-bold mb-6" to="/">
+        Tomás Epifani
     </NuxtLink>
-    <div class="grid">
-      <NuxtLink to="/a">
-        a
+    <div class="grid space-y-2">
+      <NuxtLink to="/lives">
+        Lives
     </NuxtLink>
-      <NuxtLink to="/b">
-        b
+      <NuxtLink to="/news">
+        News
     </NuxtLink>
-      <NuxtLink to="/c">
-        c
+      <NuxtLink to="/music">
+        Music
     </NuxtLink>
     </div>
   </div>
 </template>
 
 <script>
-export default {
 
-}
 </script>
 
-<style>
-
+<style scoped>
+.nav a{
+  text-decoration: none !important;
+}
+a.nuxt-link-exact-active {
+  color: #6d6d6d;
+}
 </style>

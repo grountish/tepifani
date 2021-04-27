@@ -1,7 +1,7 @@
 <template>
   <div class="flex">
     <Nav/>
-    <Nuxt class=" w-11/12" />
+    <Nuxt class=" w-8/12 mx-auto pr-10 " />
   </div>
 </template>
 

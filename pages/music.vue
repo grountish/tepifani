@@ -1,9 +1,10 @@
 <template>
-  <div class="grid  place-items-start grid-cols-1 mb-10">
+  <div class="grid h-screen place-items-center grid-cols-1">
+    <!-- <h1 class="text-5xl text-center font-bold">{{ page.header }}</h1> -->
 
-    <img :src="page.mainImage" class=" w-10/12 self-end my-5" alt="a">
+    <img v-if="page.mainImage" :src="page.mainImage" alt="a">
       <SanityContent
-        class="max-w-2xl space-y-2 text-sm w-10/12  text-justify	"
+        class="max-w-2xl space-y-2 text-sm text-left"
         :blocks="page.richText"
        
       />
@@ -16,7 +17,7 @@
 
 import { groq } from "@nuxtjs/sanity";
 
-const query = groq`*[_type=="home"][0]{
+const query = groq`*[_type=="music"][0]{
   "mainImage": mainImage.asset->url,
   richText
 }`;

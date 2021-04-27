@@ -10,9 +10,13 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' }
     ],
+   
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap' }
+
     ]
+    
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -30,6 +34,8 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/sanity/module'
+
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -47,5 +53,12 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+  sanity: {
+    projectId: 'xpwde9va',
+    dataset:'production',
+    minimal: true,
+    useCdn: false,
+    },
+
 }

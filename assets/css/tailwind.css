@@ -70,3 +70,24 @@
 
 	background:#51ab33;
 }
+
+p {
+	font-size: smaller;
+}
+div a{
+	text-decoration: underline;
+}
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.25s;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+  transform: scale(0.99);
+}
