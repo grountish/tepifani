@@ -1,5 +1,5 @@
 <template>
-  <div class="grid h-screen place-items-center grid-cols-1">
+  <div class="grid h-screen lg:place-items-center grid-cols-1">
     <!-- <h1 class="text-5xl text-center font-bold">{{ page.header }}</h1> -->
 
     <img v-if="page.mainImage" :src="page.mainImage" alt="a">
