@@ -1,6 +1,10 @@
 <template>
   <div class="grid place-items-start grid-cols-1 sm:pt-1 lg:pt-10 mb-10">
-    <img :src="page.mainImage" class=" lg:w-10/12 self-end my-5" alt="a" />
+    <img
+      :src="page.mainImage"
+      class="lg:w-10/12 self-end my-5"
+      alt="main image"
+    />
     <SanityContent
       class="max-w-2xl space-y-2 text-sm lg:w-10/12 text-justify"
       :blocks="page.richText"
@@ -24,8 +28,11 @@ export default {
     const page = await $sanity.fetch(query)
     return { page }
   },
+ 
+  
 }
 </script>
 
 <style>
+
 </style>

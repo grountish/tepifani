@@ -1,5 +1,6 @@
 <template>
   <div class="sm:flex-col md:flex lg:flex-row ">
+    <P5 />
     <Nav/>
     <Nuxt class="w-11/12 lg:w-8/12 mx-auto lg:pr-10 " />
   </div>
