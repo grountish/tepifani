@@ -16,7 +16,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: '',
+        content: 'Tomás Epifani Website',
       },
     ],
 
