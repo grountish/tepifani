@@ -17,7 +17,10 @@ export default {
         hid: 'description',
         name: 'description',
         content: 'Tomás Epifani Website',
-      },
+      },{
+        name:'google-site-verification',
+        content="xFvIqZCMkg2CL8EYNVlUJrfE88FpbWmHXVSWQA8toM4"
+      }
     ],
 
     link: [
