@@ -19,7 +19,7 @@ export default {
         content: 'Tomás Epifani Website',
       },{
         name:'google-site-verification',
-        content="xFvIqZCMkg2CL8EYNVlUJrfE88FpbWmHXVSWQA8toM4"
+        content:"xFvIqZCMkg2CL8EYNVlUJrfE88FpbWmHXVSWQA8toM4"
       }
     ],
 
